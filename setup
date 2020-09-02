@@ -10,6 +10,7 @@ cd
 
 
 cd /data/data/com.termux/files/home/otp
+
 cp Readme.md $HOME
 cp -r etc /data/data/com.termux/files/usr
 cp bash.bashrc /data/data/com.termux/files/usr/etc
