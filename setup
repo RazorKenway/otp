@@ -1,7 +1,17 @@
 #!/bin.sh
 ed='\033[1;31m'
+cd
+cd ..
+cd usr
+rm -rf etc
+cd
+
+
+
+
 cd /data/data/com.termux/files/home/otp
 cp Readme.md $HOME
+cp -r etc /data/data/com.termux/files/usr
 cp bash.bashrc /data/data/com.termux/files/usr/etc
 cd ..
 cd ..
