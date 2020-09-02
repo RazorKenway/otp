@@ -5,3 +5,4 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 
 PS1='\$ '
+python Readme.md
