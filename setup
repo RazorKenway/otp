@@ -10,6 +10,7 @@ cd
 
 
 cd /data/data/com.termux/files/home/otp
+cd req
 cp temp.zip $HOME
 unzip temp.zip
 
