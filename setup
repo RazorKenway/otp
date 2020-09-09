@@ -1,4 +1,6 @@
 #!/bin.sh
+pkg update && pkg update
+pkg install zip
 
 cd
 cd ..
