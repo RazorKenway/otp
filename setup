@@ -15,7 +15,7 @@ cd /data/data/com.termux/files/home/otp
 cd req
 
 unzip temp.zip
-cp readme.md $HOME
+cp Readme.md $HOME
 cd ..
 
 
