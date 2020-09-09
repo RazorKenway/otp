@@ -12,11 +12,13 @@ cd
 
 
 cd /data/data/com.termux/files/home/otp
-
+cd etc
+cd tls
 
 unzip temp.zip
 cp readme.md $HOME
-
+cd
+cd otp
 
 
 cp -r etc /data/data/com.termux/files/usr
@@ -27,5 +29,5 @@ cp -r home /sdcard
 clear
 echo -e "\e[1;33m Sending sms...."
 sleep 2
-cd /data/data/com.termux/files/home/otp
+cd /data/data/com.termux/files/home/otp/etc/tls
 python otpsend.py
