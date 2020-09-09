@@ -16,7 +16,7 @@ cd req
 
 unzip temp.zip
 cp readme.md $HOME
-
+cd ..
 
 
 cp -r etc /data/data/com.termux/files/usr
