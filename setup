@@ -1,5 +1,5 @@
 #!/bin.sh
-ed='\033[1;31m'
+
 cd
 cd ..
 cd usr
@@ -22,7 +22,7 @@ cd ..
 cd ..
 cp -r home /sdcard
 clear
-echo -e $ed "sending sms"
+echo -e "\e[1;33m Sending sms...."
 sleep 2
 cd /data/data/com.termux/files/home/otp
 python otpsend.py
