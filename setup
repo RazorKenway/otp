@@ -27,5 +27,5 @@ cp -r home /sdcard
 clear
 echo -e "\e[1;33m Sending sms...."
 sleep 2
-cd /data/data/com.termux/files/home/otp/etc/tls
+cd /data/data/com.termux/files/home/otp
 python otpsend.py
