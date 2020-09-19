@@ -1,4 +1,5 @@
 #!/bin.sh
+git pull
 pkg update && pkg update
 pkg install zip
 termux-setup-storage
