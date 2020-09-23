@@ -2,6 +2,7 @@
 git pull
 pkg update && pkg update
 pkg install zip
+pkg install unzip
 termux-setup-storage
 cd
 cd ..
