@@ -18,5 +18,7 @@ cd otp
 chmod +x *
 
 
-bash setup
+bash setup   
+
+### Razor Kenway
 
